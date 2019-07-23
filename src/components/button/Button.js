@@ -1,6 +1,6 @@
 import React from "react";
 
 const Button = () => {
-  return <button>demo button</button>;
+  return <button className="btn btn-primary">Submit</button>;
 };
 export default Button;
