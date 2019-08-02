@@ -1,6 +1,12 @@
 import React from "react";
 
-const Input = () => {
-  return <input type="text" class="form-control" placeholder="Default input" />;
+const Input = props => {
+  return (
+    <input
+      type="text"
+      className="form-control"
+      placeholder={props.inputPlaceholder}
+    />
+  );
 };
 export default Input;

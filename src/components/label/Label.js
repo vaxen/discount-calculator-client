@@ -1,9 +1,9 @@
 import React from "react";
 
-const Label = () => {
+const Label = props => {
   return (
-    <label class="col-sm-2 col-form-label" for="demo">
-      Label:
+    <label className="col-sm-2 col-form-label" htmlFor="demo">
+      {props.labelValue}:
     </label>
   );
 };
